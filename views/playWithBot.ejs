@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/play.css">
+</head>
+<body>
+    <header id="header-container">
+        <a href="/" style="color: #724C21; font-size:4rem; font-weight: 900; text-decoration: none;"><</a>
+        <img src="/assets/logo.png" width="75vw" id="head-logo"/>
+        <div id="head-text">ROCK PAPER SCISSORS</div>
+    </header>
+
+    <div id="content-container">
+        <div class="board-games" style="width: 30vw;">
+            <div class="player-text"><%- username %></div>
+            <div class="rock-player" value="rock">
+                <img src="/assets/batu.png" width="100vw"/>
+            </div>
+            <div class="paper-player" value="paper">
+                <img src="/assets/kertas.png" width="100vw"/>
+            </div>
+            <div class="scissors-player" value="scissors">
+                <img src="/assets/gunting.png" width="100vw"/>
+            </div>
+        </div>
+        <div style="width: 15vw;">
+            <div class="versus-text" style="color:#BD0000; font-size: 5rem; font-weight: bolder;">VS</div>
+            <div class="win-box" ><PLAYER 1> <br> WIN</div>
+        </div>
+        <div class="board-games" style="width: 30vw;">
+            <div class="player-text">COMPUTER</div>
+            <div class="rock-computer" value="rock">
+                <img src="/assets/batu.png" width="100vw"/>
+            </div>
+            <div class="paper-computer" value="paper">
+                <img src="/assets/kertas.png" width="100vw"/>
+            </div>
+            <div class="scissors-computer" value="scissors">
+                <img src="/assets/gunting.png" width="100vw"/>
+            </div>
+        </div>
+    </div>
+
+    <div id="refresh-button">
+        <img src="/assets/refresh.png" width="100vw"/>
+    </div>
+<script src="/js/play.js"></script>
+</body>
+</html>

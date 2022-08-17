@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/room.css">
+
+
+</head>
+<body>
+    <%- include('partials/playHeader') %>
+    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+        <button onclick="createRoom()">Create Room</button>
+        <% for(let i=0; i<data.length;i++){ %>
+            <div class="room-card">
+                <div>Room <%- data[i]._id%></div>
+                <div>created by <%- data[i].hostId%></div>
+                <div>room status <%- data[i].hostId%></div>
+                <a href="/battle-room?id=<%= data[i]._id %>">enter room</a>
+            </div>
+        <% } %>
+    </div>
+    <script>
+        console.log('a')
+
+        function createRoom(){
+            fetch('http://localhost:5000/create-room',{method:'POST'})
+            .catch(err=>{console.log(err)})
+        }
+
+        function enterRoom(id){
+            console.log(id)
+        }
+    </script>
+</body>
+</html>

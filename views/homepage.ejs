@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+
+    <link rel="stylesheet" href="/css/homepage.css">
+
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- fontawesome -->
+
+    <title>Document</title>
+</head>
+<body>
+        <%- include('partials/header') %>
+        
+        <!-- content 1 -->
+        <div id="content-1" class="d-flex flex-column justify-content-center align-items-center text-white">
+                <div class="content-1-text-head" >play traditional game</div>
+                <div class="content-1-text-subhead">Experience new traditional game play</div>
+                <a href="/play" class="button-playnow"><button class="btn btn-warning button-playnow"> play now </button></a>
+                <div class="content-1-thestory d-flex flex-column align-items-center">
+                    <div>THE STORY</div>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+        </div>
+        <!-- content 1 -->
+
+        <!-- content 2 -->
+        <div id="content-2" class="d-flex justify-content-center align-items-center">
+            <div class="c2-box-1">
+                <div>What's so special?</div>
+                <h1 class="content-2-thegames">THE GAMES</h1>
+            </div>
+            <div class="c2-box-2">
+                <div class="c2-box-2-img">
+                    <i class="fa fa-chevron-left left-button-carousel"></i>
+                    <div class="bullet-box d-flex">
+                        <div class="bullet active-bullet"></div>
+                        <div class="bullet"></div>
+                        <div class="bullet"></div>
+                        <div class="bullet"></div>
+                        <div class="bullet"></div>
+                    </div>
+                    <i class="fa fa-chevron-right right-button-carousel"></i>
+                </div>
+            </div>
+        </div>
+        <!-- content 2 -->
+
+        <!-- content 3 -->
+        <div id="content-3">
+            <div class="features-info">
+                <h1>What So Special ? </h1>
+                <h2 class="content-3-features-text">Features</h2>
+                <div class="features-content">
+                    <div class="features-menu">
+                        <div class="bullet active-bullet features-bullet"></div>
+                        <div class="bullet-line"></div>
+                        <h1 class="features-headline">Tradional Games</h1>
+                        <p style="letter-spacing: 0.2rem;">If you miss your childhood, we provide many traditional games here</p>
+                    </div>
+                    <div class="features-menu">
+                        <div class="bullet features-bullet"></div>
+                        <h1 class="features-headline">Game Suit</h1>
+                    </div>
+                    <div class="features-menu">
+                        <div class="bullet features-bullet"></div>
+                        <h1 class="features-headline">TBD</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- content 3 -->
+
+
+        <!-- content 4 -->
+        <div id="content-4">
+            <div style="height:100%; position: relative;">
+                <div class="content-4-system-requirements">
+                    System Requirements
+                </div>
+                <div  class="content-4-question-for-run">Can my computer Run This Game?</div>
+                <div class="specs-requirements-table">
+                    <div class="d-flex specs-requirements-table-child">
+                        <div class="table-split">
+                            <div class="table-title">OS </div>
+                            <div> Windows 7 65-bit only <br> (No OSX support at this time)</div>
+                        </div>
+                        <div class="table-split">
+                            <div class="table-title">PROCESSOR </div>
+                            <div> Inter Core 2 Duo @ 2.4GHZ or <br> AMD Athlon X2 @2.8 GHZ</div>
+                        </div>
+                    </div>
+                    <div class="d-flex specs-requirements-table-child">
+                        <div class="table-split">
+                            <div class="table-title">MEMORY </div>
+                            <div> 4 GB RAM</div>
+                        </div>
+                        <div class="table-split">
+                            <div class="table-title">STORAGE </div>
+                            <div> 8 GB Available Space</div>
+                        </div>
+                    </div>
+                    <div class="specs-requirements-table-child">
+                        <div class="table-no-split">
+                            <div class="table-title">GRAPHICS </div>
+                            <div> NVIDIA GeForce GTX 660 or <br> AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 4 -->
+
+        <!-- content 5 -->
+        <div id="content-5">
+            <div class="title-content-5 d-flex flex-column justify-content-center align-items-left">
+                <div class="content-5-topscores">TOP SCORES</div>
+                <p style="font-size: 1rem; letter-spacing:0.1rem; margin: 1% 0;">This top score from various games provided on this platform </p>
+                <button class="btn btn-warning top-scores-button"> See more</button>
+            </div>
+            <div class="card-container-content-5">
+                <div class="card-top-score">
+                    <div class="d-flex justify-content-between">
+                        <div style="position: relative;">
+                            <img src="./assets/evan-lahti.jpg" class="top-score-profile"/>
+                            <div class="orange-shadow"></div>
+                        </div>
+                        <div class="name-card-top-score">
+                            <div style="color:#FAB340">Evan Lathi</div>
+                            <div style="color: #8C8D8D;">PC Gamer</div>
+                        </div>
+                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                            </svg>
+                            
+                    </div>
+                    <p class="mt-5">
+                        "One of my gaming highlights of the year!"
+                    </p>
+                    <div class="card-date-posted" style="color: #8C8D8D;">
+                        June 8, 2021
+                    </div>
+                </div>
+
+                <div class="card-top-score">
+                    <div class="d-flex justify-content-between">
+                        <div style="position: relative;">
+                            <img src="./assets/jada-griffin.jpg" class="top-score-profile"/>
+                            <div class="orange-shadow"></div>
+                        </div>
+                        <div class="name-card-top-score">
+                            <div style="color:#FAB340">Jada Griffin</div>
+                            <div style="color: #8C8D8D;">Nerdcreator</div>
+                        </div>
+                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                            </svg>
+                            
+                    </div>
+                    <p class="mt-5">
+                        The next big thing in the world of streaming and survival games.
+                    </p>
+                    <div class="card-date-posted"  style="color: #8C8D8D;">
+                        July 10, 2021
+                    </div>
+                </div>
+
+                <div class="card-top-score">
+                    <div class="d-flex justify-content-between">
+                        <div style="position: relative;">
+                            <img src="./assets/aaron-williams.jpg" class="top-score-profile"/>
+                            <div class="orange-shadow"></div>
+                        </div>
+                        <div class="name-card-top-score">
+                            <div style="color:#FAB340">Aaron WIlliams</div>
+                            <div style="color: #8C8D8D;">Uproxx</div>
+                        </div>
+                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                            </svg>
+                            
+                    </div>
+                    <p class="mt-5">
+                        "Snoop Dogg Playing The Wildly Entertaining 'SOS' Is Ridiculous."
+                    </p>
+                    <div class="card-date-posted"  style="color: #8C8D8D;">
+                        July 10, 2021
+                    </div>
+                </div>
+
+                
+                
+            </div>
+
+        </div>
+        <!-- content 5 -->
+
+        <!-- content 6 -->
+        <div id="content-6">
+            <div class="content-6-img">
+            </div>
+            <div class="content-6-info">
+                <div style="font-size: 1.5rem; letter-spacing: 0.2rem; width: 10vw;">Want to stay in touch?</div>
+                <div class="content-6-newsletter-subs">NEWSLETTER SUBSCRIBE</div>
+                <div style="font-size: 1rem; letter-spacing:0.1rem; margin-bottom:5%;">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don't spam.</div>
+                <div class="d-flex">
+                    <div style="position:relative">
+                        <div class="content-6-your-email-address">Your email address</div>
+                        <input placeholder="youremail@binar.co.id" class="subscribe-input"/>
+                    </div>
+                    <button class="btn subscribe-button">Subscribe Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- content 6 -->
+
+        <!-- footer -->
+        <footer id="footer" >
+            <div class="d-flex justify-content-end">
+                <div class="footer-menu">MAIN</div>
+                <div class="footer-menu">ABOUT</div>
+                <div class="footer-menu">GAME FEATURES</div>
+                <div class="footer-menu">SYSTEM REQUIREMENTS</div>
+                <div class="footer-menu">QUOTES</div>
+                <div class="footer-menu">
+                    <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.65382 19.1726H2.56282V9.67859H0.517822V6.40559H2.56282V4.44159C2.56282 1.77259 3.71782 0.183594 6.99582 0.183594H9.72582V3.45659H8.02082C6.74282 3.45659 6.65882 3.91459 6.65882 4.76859L6.65382 6.40559H9.74582L9.38382 9.67859H6.65382V19.1726Z" fill="white"/>
+                    </svg>
+                </div>
+                <div class="footer-menu">
+                        <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="1" d="M18.3981 2.41449C17.7231 2.70013 17.0072 2.88765 16.2741 2.97084C17.0365 2.53297 17.623 1.84099 17.899 1.01526C17.1731 1.42694 16.3789 1.71699 15.5508 1.87286C14.8519 1.15947 13.8744 0.755389 12.8519 0.757085C10.8105 0.757085 9.15361 2.33909 9.15361 4.29061C9.15361 4.5679 9.18627 4.83816 9.25021 5.09623C6.17639 4.94862 3.45216 3.54236 1.62787 1.404C1.30934 1.92529 1.12764 2.53297 1.12764 3.18076C1.12764 4.40623 1.78024 5.48805 2.77231 6.12188C2.18494 6.10468 1.61046 5.95309 1.09706 5.67983V5.7249C1.09706 7.43659 2.37189 8.86495 4.06278 9.19027C3.5182 9.3312 2.94722 9.35187 2.39305 9.25072C2.86384 10.6549 4.22998 11.6764 5.8475 11.7061C4.5821 12.6524 2.98781 13.2184 1.25483 13.2184C0.960153 13.2181 0.66574 13.2015 0.373047 13.1689C2.00943 14.1713 3.95365 14.7571 6.04185 14.7571C12.8438 14.7571 16.5627 9.37118 16.5627 4.70056C16.5627 4.54779 16.5627 4.39502 16.5513 4.24335C17.2749 3.74295 17.8998 3.12372 18.3969 2.41449H18.3981Z" fill="white"/>
+                        </svg>
+                </div>
+                <div class="footer-menu">
+                        <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.61 0.183594H5.98961C3.12627 0.183594 0.799805 2.55085 0.799805 5.4644V12.8973C0.799805 15.8163 3.12627 18.1781 5.98961 18.1781H20.6046C23.4733 18.1781 25.7944 15.8108 25.7944 12.8973V5.4644C25.7998 2.55085 23.4733 0.183594 20.61 0.183594ZM17.0959 9.54779L10.2575 12.8642C10.0731 12.9524 9.86705 12.82 9.86705 12.6103V5.7679C9.86705 5.55821 10.084 5.42578 10.2629 5.51958L17.1013 9.04564C17.3074 9.15048 17.302 9.44846 17.0959 9.54779Z" fill="#FF1313"/>
+                        </svg>
+                </div>
+                <div class="footer-menu">
+                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9602 13.6252V9.5538V0.680176H2.93894L0.811279 2.97688V15.0868H6.13043V18.845H8.47085L11.024 16.1307H17.407L19.9602 13.6252ZM7.40694 13.4165H4.00268C3.76864 13.4165 3.57715 13.2286 3.57715 12.9989V2.76817C3.57715 2.5385 3.76864 2.35059 4.00268 2.35059H17.6197C17.8537 2.35059 18.0452 2.5385 18.0452 2.76817V10.7022C18.0452 10.8171 18.0027 10.9215 17.9229 10.9998L15.5825 13.2965C15.5027 13.3748 15.391 13.4165 15.2793 13.4165H11.3697L8.07183 15.6401C8.00268 15.6871 7.91757 15.7132 7.83247 15.7132C7.76332 15.7132 7.69949 15.6976 7.63566 15.6662C7.49204 15.5932 7.40694 15.4522 7.40694 15.2956V13.4165Z" fill="white"/>
+                    <path d="M13.79 9.76274V5.58691H12.0878V9.76274H13.79ZM9.53465 9.76274V5.58691H7.83252V9.76274H9.53465Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+            <div style="width: 100%; border-bottom:1px solid white;"></div>
+            <div class="d-flex justify-content-between" style="padding:1%">
+                <div class="copyright-mark" style="color:#8C8D8D;">&copy; 2018 Your Games, Inc, All rights Reserved</div>
+                <div class="d-flex">
+                    <div class="tnc-footer">PRIVACY POLICY | &nbsp</div>
+                    <div class="tnc-footer">TERMS OF SERVICES | &nbsp</div>
+                    <div class="tnc-footer">CODE OF CONDUCT</div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+
+</body>
+</html>

@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body, html {
+    height: 100%;
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+
+
+
+/* content 1 */
+
+#content-1{
+    background: url("/assets/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+    padding-bottom: 10%;
+}
+
+.content-1-text-head{
+    font-size: 8rem;
+}
+
+.content-1-text-subhead{
+    margin-top:3%; 
+    letter-spacing: 0.2em; 
+    font-size: 1.5rem;
+}
+
+.content-1-thestory{
+    position:absolute; 
+    bottom:7vh;
+}
+
+.button-playnow{
+    margin-top:5%; 
+    width: 15vw; 
+    height: 5vh;
+}
+/* content 1 */
+
+/* content 2 */
+
+
+#content-2{
+    background: url("/assets/the-games-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;  
+}
+
+.c2-box-1{
+    width: 35%;
+    height: 60vh;
+    padding: 1% 4%;
+    letter-spacing: 0.5rem;
+}
+
+.c2-box-2{
+    width: 65%;
+    height: 60vh;
+    padding: 5% 12% 0 0;
+
+}
+
+.c2-box-2-img{
+    background: url("/assets/rockpaperstrategy-1600.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bullet-box{
+    position: absolute;
+    bottom: 2%;
+    right: 15%;
+    width: 25vw;
+}
+
+
+
+.left-button-carousel{
+    position: absolute;
+    bottom: 45%;
+    left:-5%;
+    font-size: 3rem;
+}
+
+.right-button-carousel{
+    position: absolute;
+    bottom: 45%;
+    right:-5%;
+    font-size: 3rem;
+}
+
+.content-2-thegames{
+    font-size: 5rem; 
+}
+/* content 2 */
+
+
+/* content 3 */
+
+#content-3{
+    background: url("/assets/features.jpg");
+    height: 135vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.features-info{
+    width: 35vw;
+    position: absolute;
+    right:7.5%;
+    top: 20%;
+}
+.features-menu{
+    position: relative;
+    margin: 3% 0 3% 0;
+    height: 15vh;
+    margin-left: 8.5%;
+}
+
+.features-bullet{
+    position: absolute;
+    left: -15%;
+    top:10%
+}
+
+.bullet-line{
+    height: 17vh;
+    border: 1px solid white;
+    width: 1px;
+    position:absolute;
+    left: -9%;
+    top:10%
+}
+
+.features-headline {
+    color:#fb8c00;
+    letter-spacing: 0.5rem;
+}
+
+.content-3-features-text{
+    font-size: 5rem; 
+    letter-spacing: 1rem
+}
+
+.features-content{
+    margin-top: 25%;
+}
+
+
+/* content 3 */
+
+
+/* content 4 */
+#content-4{
+    background: url("/assets/requirements.png");
+    height: 135vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 11%;
+}
+
+.specs-requirements-table{
+    margin-top: 10%;
+}
+
+.specs-requirements-table-child{
+    width: 37vw;
+    height: 18.5vh;
+    font-size: 1.5rem;
+}
+
+.table-split{
+    width: 50%;
+    border: 1px solid silver;
+    height: 100%;
+    padding: 2%;
+}
+
+.table-no-split{
+    width: 100%;
+    height: 100%;
+    border: 1px solid silver;
+    padding: 2%;
+}
+
+.table-title {
+    color:#fb8c00;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+}
+
+.content-4-system-requirements{
+    font-size: 4rem; 
+    max-width:2vw; 
+    letter-spacing:0.6rem
+}
+
+.content-4-question-for-run{
+    position: absolute; 
+    right: 40%; 
+    top: 1.5%;
+}
+
+/* content 4 */
+
+/* content 5 */
+
+#content-5{
+    background: url("/assets/top-score-bg.png");
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 11%;
+    display: flex;
+    z-index: -1;
+}
+
+.title-content-5{
+    width: 40%;
+    padding-bottom: 5%;
+}
+
+.card-container-content-5{
+    width: 60%;
+    position: relative;
+}
+
+.card-top-score{
+    background-color: #191A1B;
+    width: 23vw;
+    height: 22vh;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.top-score-profile{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    position:absolute;
+    z-index: 1;
+}
+
+.name-card-top-score {
+    width: 8vw;
+}
+
+.card-top-score:nth-child(odd) {
+    margin-left: 50%;
+}
+
+.content-5-topscores{
+    font-size: 5rem; 
+    letter-spacing:0.5rem; 
+    margin: 1% 0;
+}
+
+.top-scores-button{
+    width:10vw; 
+    height:5vh; 
+    margin: 5% 0;
+}
+
+.orange-shadow{
+    background-color: #FAB340; 
+    height:65px; 
+    width:65px; 
+    position:absolute; 
+    top: 1px; 
+    left: 8px; 
+    z-index: 0; 
+    border-radius: 50%;
+}
+
+/* content 5 */
+
+/* content 6 */
+#content-6{
+    background-color: #080A0B;
+    height: 85vh;
+    position: relative;
+    padding: 2% 0% 2% 20%;
+    display: flex;
+}
+
+.content-6-img{
+    width: 25%;
+    height: 89.5%;
+    background: url("/assets/skull.png");
+    background-repeat: no-repeat;
+    background-size:inherit;
+    background-position: center;
+    box-shadow: 1px -62px 141px 34px rgba(8,10,11,1) inset;
+    -webkit-box-shadow: 1px -62px 141px 34px rgba(8,10,11,1) inset;
+    -moz-box-shadow: 1px -62px 141px 34px rgba(8,10,11,1) inset;
+    border-radius: 50%;
+}
+
+.content-6-info{
+    width: 60%;
+    padding: 5%;
+}
+
+.shadow {
+    box-shadow: 5px 4px 400px 9px rgba(8,10,11,0.79) inset;
+    -webkit-box-shadow: 5px 4px 400px 9px rgba(8,10,11,0.79) inset;
+    -moz-box-shadow: 5px 4px 400px 9px rgba(8,10,11,0.79) inset
+ }
+
+ .subscribe-input{
+     background-color: #1B1D1E;
+     border: transparent;
+     height: 7vh;
+     width: 20vw;
+     border-radius: 5px;
+     padding: 5% 3% 0 4%;
+     color:#fb8c00 ;
+     letter-spacing: 0.2rem;
+ }
+
+ .subscribe-input::placeholder{
+     color:#fb8c00;
+ }
+
+ .subscribe-button{
+     background-color: #fb8c00;
+     margin-left: 3%;
+     width: 20vw;
+ }
+
+ .content-6-your-email-address{
+    color:#8C8D8D; 
+    position:absolute; 
+    left:15px; top:10%
+}
+
+.content-6-newsletter-subs{
+    font-size: 5rem; 
+    width: 20vw;
+}
+/* content 6 */
+
+/* footer */
+
+#footer{
+    height: 10vh;
+    background-color: #080A0B;
+    padding: 8% 16%;
+}
+
+.footer-menu{
+    min-width: 1vw;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    margin:1% 3%;
+}
+
+.tnc-footer{
+    min-width: 1vw;
+    margin: 0 1px;
+    letter-spacing: 0.1rem;
+}
+/* footer */
+
+
+/* bullet */
+.bullet{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 0 5%;
+}
+
+.active-bullet { 
+    background-color: white;
+}
+
+/* bullet */
+
+@media screen and (max-width: 1680px) {
+    #content-5{
+        height: 130vh;
+    }
+
+    .card-top-score{
+        height: 25vh;
+    }
+} 
+@media screen and (max-width: 1400px) {
+    .specs-requirements-table-child{
+        width: 50vw;
+    }
+    .name-card-top-score{
+        width: 7vw;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .card-top-score{
+        height: 27vh;
+    }
+    .name-card-top-score{
+        width: 5vw;
+    }
+} 
+@media screen and (max-width: 1199px) {
+    .card-top-score{
+        height: 30vh;
+    }
+    .name-card-top-score{
+        width: 4vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header-navigation > div {
+        margin: 0 1%;
+        width:10vw;
+    }
+
+    .content-1-text-head{
+        font-size: 7rem;
+    }
+
+
+    .features-menu{
+        height: 22vh;
+    }
+
+    .bullet-line{
+        height: 23.5vh;
+        top: 10.5%;
+        left: -8%;
+    }
+
+    .specs-requirements-table-child{
+        width: 60vw;
+    }
+
+    .name-card-top-score{
+        width: 1vw;
+    }
+
+    #content-6{
+        height: 100vh;
+        padding: 2% 0% 2% 10%;
+    }
+
+    .subscribe-input::placeholder{
+        font-size: 0.9rem;
+    }
+
+    #footer { 
+        padding: 8% 12%;
+        height: 25vh;
+    }
+
+    .footer-menu{
+        margin:1% 2%;
+    }
+}
+@media screen and (max-width: 991px) {
+    #footer{
+        height: 25vh;
+    }
+} 
+@media screen and (max-width: 767px) {
+    #content-1{
+        height: 50vh;
+    }
+    .header-navigation > div {
+        margin: 0;
+        width:10vw;
+    }
+
+    .content-1-text-head{
+        font-size: 3rem;
+        position: relative;
+    }
+
+    .content-1-text-subhead{
+        font-size: 1rem;
+    }
+
+    .content-1-thestory{
+        bottom: 55%;
+    }
+
+
+    #content-2{
+        height: 50vh;
+    }
+
+    .c2-box-1{
+        height: 30vh;
+    }
+
+    .c2-box-2{
+        height: 30vh;
+    }
+
+    .left-button-carousel, .right-button-carousel{
+        font-size: 1rem;
+    }
+    .content-2-thegames{
+        font-size: 3rem; 
+    }
+
+
+    #content-3{
+        height: 50vh;
+    }
+
+    .content-3-features-text{
+        font-size: 2rem; 
+        letter-spacing: 1rem
+    }
+
+    .features-info{
+        height: 50vh;
+        top:0
+    }
+    .features-menu{
+        margin: 0;
+        height: 13vh;
+    }
+    .features-headline{
+        font-size: 1rem;
+    }
+
+    .features-content{
+        margin: 0;
+    }
+
+    .features-bullet{
+        top:3%
+    }
+
+    .bullet-line{
+        height: 12vh;
+    }
+
+
+    .specs-requirements-table-child{
+        width: 70vw;
+    }
+
+    .content-4-system-requirements{
+        font-size: 2rem; 
+        max-width:2vw; 
+        letter-spacing:0.6rem
+    }
+
+
+    #content-5{
+        height: 90vh;
+    }
+
+    .content-5-topscores{
+        font-size: 3rem; 
+    }
+
+    .top-scores-button{
+        width:13vw; 
+    }
+
+    .card-top-score{
+        width: 50vw;
+        height: 23vh;
+    }
+
+    .card-top-score:nth-child(odd) {
+        margin-left: 5%;
+    }
+
+    .name-card-top-score{
+        width: 15vw;
+    }
+
+    .subscribe-input::placeholder{
+        font-size: 0.55rem;
+    }
+
+} 
+@media screen and (max-width: 600px) {
+
+    .header-navigation { 
+        width: 50vw;
+    }
+    .header-navigation > div {
+        margin: 0;
+    }
+
+    .header-sign{
+        width: 25vw;
+        margin:0;
+    }
+
+    .features-menu > p{
+        font-size: 0.7rem;
+        letter-spacing: 0;
+    }
+    .bullet-line{
+        left: -7.5%;
+    }
+
+    #content-4{
+        height: 50vh;
+    }
+    .specs-requirements-table-child{
+        width: 70vw;
+        height: 8vh;
+        font-size: 0.7rem;
+    }
+
+    .table-title {
+        color:#fb8c00;
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+    }
+
+    .name-card-top-score{
+        width: 13vw;
+    }
+
+
+    .content-4-question-for-run{
+        position: absolute; 
+        right: 20%; 
+        top: 1.5%;
+    }
+
+    .top-scores-button{
+        width: 20vw;
+    }
+    .subscribe-input{
+        width: 30vw;
+    }
+    .content-6-your-email-address{
+        color:#8C8D8D; 
+        position:absolute; 
+        left:15px; 
+        top:10%;
+        font-size: 0.7rem;
+    }
+
+} 
+@media screen and (max-width: 575px) {
+    .content-6-newsletter-subs{
+        font-size: 3rem; 
+        width: 20vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .button-playnow{
+     width: 20vw;
+    }
+
+    .name-card-top-score{
+        width: 5vw;
+    }
+
+    .card-top-score{
+        height: 25vh;
+    }
+} 
+@media screen and (max-width: 360px) {
+    .header {
+        font-size: 0.8rem;
+        height: 5vh;
+    }
+
+    .header-navigation{
+        width: 55vw;
+    }
+
+    .header-navigation > div {
+        width: 15vw;
+    }
+
+    .header-sign{
+        width: 25vw;
+    }
+
+    .header-sign > div {
+        margin: 0 5%;
+    }
+
+    #content-1{
+        height: 30vh;
+    }
+
+    .content-1-text-head{
+        font-size: 2rem;
+    }
+
+    .content-1-text-subhead{
+        font-size: 0.8rem;
+    }
+
+    .button-playnow{
+        width: 40vw;
+        height: 3vh;
+        font-size: 0.7rem;
+    }
+
+    #content-2{
+        height: 30vh;
+    }
+
+    .c2-box-1{
+        height: 20vh;
+        font-size: 0.7rem;
+    }
+
+    .c2-box-2{
+        height: 20vh;
+    }
+
+    .left-button-carousel, .right-button-carousel{
+        font-size: 1rem;
+    }
+    .content-2-thegames{
+        font-size: 1.5rem !important;
+    }
+
+    #content-3{
+        height: 30vh;
+    }
+
+    .content-3-features-text{
+        font-size: 1rem; 
+        letter-spacing: 0.1rem
+    }
+
+    .features-info{
+        height: 20vh;
+        top:0
+    }
+
+    .features-info > h1{
+        font-size: 1rem;
+    }
+    .features-menu{
+        margin: 0;
+        max-height: 8.5vh;
+        width: 40vw;
+    }
+    .features-headline{
+        font-size: 0.6rem;
+    }
+
+    .features-content{
+        margin: 0;
+    }
+
+    .features-bullet{
+        top:0%;
+        left: -25%;
+    }
+
+    .bullet-line{
+        height: 7.7vh;
+        left:-16%
+    }
+
+    .features-menu > p{
+        font-size: 0.5rem;
+        letter-spacing: 0;
+    }
+
+    .specs-requirements-table-child{
+        width: 80vw;
+    }
+
+    .content-4-system-requirements{
+        font-size: 1rem; 
+        max-width:2vw; 
+        letter-spacing:0.1rem
+    }
+
+    .content-4-question-for-run{
+        font-size: 0.7rem;
+    }
+    .content-5-topscores{
+        font-size: 1.5rem; 
+    }
+
+    .title-content-5 > p {
+        font-size: 0.5rem !important;
+    }
+
+    .top-scores-button{
+        width:30vw; 
+    }
+
+    .card-top-score{
+        width: 50vw;
+        height: 22vh;
+    }
+
+    .card-top-score:nth-child(odd) {
+        margin-left: 5%;
+    }
+
+    .name-card-top-score{
+        width: 15vw;
+    }
+
+    .top-score-profile{
+        height: 40px;
+        width: 40px;
+    }
+
+    .orange-shadow{
+        height: 40px;
+        width: 40px
+    }
+
+    .name-card-top-score{
+        width: 5vw;
+    }
+
+    .card-top-score > p{
+        font-size: 0.8rem;
+        margin-top: 10% !important;
+    }
+
+    .card-date-posted{
+        font-size: 0.8rem;
+    }
+
+    .subscribe-button{
+        font-size: 0.8rem;
+    }
+
+    .footer-menu{
+        font-size: 0.6rem;
+    }
+
+    .tnc-footer{
+        font-size: 0.6rem;
+    }
+
+    .copyright-mark{
+        font-size: 0.6rem;
+    }
+
+
+}

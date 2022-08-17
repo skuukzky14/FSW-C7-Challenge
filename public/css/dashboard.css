@@ -1,0 +1,20 @@
+.wrapper{
+    background-color: #EEEEEE;
+}
+
+#side-bar-dashboard{
+    width:10%;
+    height: 100vh; 
+    background-color:red; 
+    padding:7vh 1vw;
+}
+
+
+.side-bar-list{
+    margin: 3vh 0;
+}
+
+.side-bar-list a{
+    text-decoration: none;
+    color: white;
+}

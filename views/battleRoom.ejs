@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <%- include('partials/playHeader') %>
+    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+        <%= message %>
+        <%= enemy[0]?.username %>
+
+
+        <div id="room-status">room status : <%= roomStatus %></div>
+
+        <div id="winner-box">Result</div>
+
+        <button onclick="choose('rock', '<%= data %>')">rock</button>
+        <button onclick="choose('paper', '<%= data %>')">paper</button>
+        <button onclick="choose('scissor', '<%= data %>')">scissor</button>
+    </div>
+    <script src = "/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        function getCookie(cName) {
+            const name = cName + "=";
+            const cDecoded = decodeURIComponent(document.cookie); //to be careful
+            const cArr = cDecoded.split('; ');
+            let res;
+            cArr.forEach(val => {
+                if (val.indexOf(name) === 0) res = val.substring(name.length);
+            })
+            return res
+        }
+
+        const choose=(choice, data)=>{
+            let cookie = getCookie('login')
+            cookie = JSON.parse(cookie.slice(2))
+            socket.emit('player choosing', {cookie, choice, data:JSON.parse(data)})
+        }
+        
+        socket.on('choosed',(data)=>{
+            let roomStatus = document.querySelector('#room-status')
+            let winnerBox = document.querySelector('#winner-box')
+
+            roomStatus.innerHTML = `room status ${data.roomStatus}`
+            winnerBox.innerHTML = `${data.result}`
+            console.log(data)
+        })
+    </script>
+</body>
+</html>
